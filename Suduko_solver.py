@@ -22,7 +22,7 @@ def find_empty_location(board, empty_loc):
 
 def solve_sudoku(board):
     empty_loc = [0, 0]
-    
+    # If it is not empty it returns true
     if not find_empty_location(board, empty_loc):
         return True  # All cells are filled, puzzle solved
     
