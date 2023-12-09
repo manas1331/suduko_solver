@@ -1,4 +1,4 @@
-# Function to create the board with inputs as
+# Function to create the board with inputs as board,row,col,number
 def is_valid(board, row, col, num):
     # Check if the number is not present in the same row, column, or 3x3 grid
     for i in range(9):
