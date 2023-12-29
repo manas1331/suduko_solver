@@ -12,6 +12,7 @@ def is_valid(board, row, col, num):
                 return False
     
     return True
+
 # Tells about the empty locations
 def find_empty_location(board, empty_loc):
     for row in range(9):
